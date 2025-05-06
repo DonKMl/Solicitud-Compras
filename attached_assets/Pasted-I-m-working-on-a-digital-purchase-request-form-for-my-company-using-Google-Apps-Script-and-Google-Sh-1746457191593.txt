@@ -1,0 +1,79 @@
+I'm working on a digital purchase request form for my company using Google Apps Script and Google Sheets. Here's the full context and what I need:
+
+## ✅ Objective:
+Create a functional and mobile-optimized web application that allows users to submit purchase requests through a dynamic HTML form. The form data must be sent and recorded automatically into a Google Sheets document, organized by site (sede).
+
+---
+
+## 📋 Form Fields (with field type):
+
+1. **Name** (short answer)
+2. **Position** (short answer)
+3. **Department / Area** (dropdown):
+   - STT
+   - Maintenance
+   - Quality
+   - Packaging
+   - Stationery
+   - Logistics
+   - IT
+4. **Site / Sede** (dropdown):
+   - Main Site (Sales Point)
+   - Plant
+   - Chimila
+   - Concentrates
+   - Cartagena
+5. **Type of Request** (dropdown):
+   - Purchase Order
+   - Service Order
+6. **Justification** (dropdown):
+   - New Purchase
+   - Repurchase
+   - Stock Depletion
+7. **Product Name** (short answer)
+8. **Quantity** (short answer, allow numbers and letters, e.g. "1000kg")
+9. **Specification** (short answer)
+10. **Add Product** button to allow multiple items before submitting the form.
+11. **Submit Form** button to register all entered items to Google Sheets.
+
+---
+
+## ⚙️ Functional Requirements:
+
+- When a product is added, it should be saved in a temporary table on the page.
+- When submitting the form, all products should be submitted together along with user data (name, position, etc.).
+- Upon form submission, the script must:
+  - Automatically create or use an existing tab in Google Sheets based on the selected "Sede".
+  - Insert each product on a separate row with the form metadata (name, position, etc.).
+  - Add a column called "Status" with the value "New" for each row.
+- The "Status" column must show:
+  - "New" in light red
+  - "In Process" in yellow
+  - "Completed" in green
+  (These styles can be applied manually in the spreadsheet for now.)
+
+---
+
+## 📱 Mobile Optimization:
+
+- The form should be responsive and fully mobile-optimized.
+- On mobile, the input zoom issue should be minimized using CSS (`font-size: 16px;`).
+- Layout should adapt gracefully to different screen sizes.
+
+---
+
+## 🖼️ Additional:
+
+- Add a logo image at the top of the form before the title "Purchase Request". The image is named `logo inverlache.jpg`.
+
+---
+
+## 🔒 Integration Notes:
+
+- The Google Sheet is here: https://docs.google.com/spreadsheets/d/1c3FV-QxtJtzxZHClYFeYa9UkE-bheHHrKTss56JBAx0
+- Script should use `doGet()` to render the form.
+- Data must be appended to the correct sheet based on the selected "Sede".
+
+---
+
+Can you help me write the full HTML, CSS and Google Apps Script (`Code.gs`) to make this functional?

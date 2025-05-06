@@ -1,0 +1,30 @@
+Hi Replit AI, I have a fully functional purchase request web app connected to Google Sheets. Everything works fine, but now I’d like to improve its design and functionality without breaking what’s already working.
+
+Here are the enhancements I want to make:
+
+1. **Global Sheet Consolidation**:  
+   The current system creates a new sheet per "Sede" (location), which is great. However, I’d like to also create a **master sheet** (called "Consolidated") that automatically collects and displays **all requests from all locations**.
+
+2. **Improve the Form UI Design**:
+   - Make the form container have **rounded corners** and a **slight shadow** for a modern card-like effect.
+   - Use a **white background** for clarity and contrast.
+   - Change the “Add Product” button to a **soft red color** that aligns better with the company’s branding.
+
+3. **Add Company Logo**:
+   - Include the company logo at the top of the form and make sure it is **responsive and mobile-friendly**.
+   - I have already uploaded the logo image as `logo inverlache.jpg`.
+
+4. **Improve Section Headings Visibility**:
+   - Add a bold visible heading under the logo that says: **"Solicitud de Compra/Servicio"** (Purchase/Service Request).
+   - There is a section currently labeled “Información del Solicitante” (Applicant Info), but its text is very dim and hard to read due to low opacity. Make it **fully black** and more visible.
+   - Do the same for the section labeled “Información del Producto” (Product Info), and rename it to: **"Información de Producto/Servicio"**.
+
+5. **Success Confirmation Screen**:
+   - After submitting the request, instead of just a browser alert, redirect the user to a simple **confirmation page**.
+   - The confirmation page should display:
+     - The applicant's name
+     - Date and time of submission
+     - A list of the products/services submitted, including quantity
+     - A success message like: **"¡Su solicitud fue enviada con éxito!"** (Your request was successfully sent!)
+
+Please keep the backend and spreadsheet connection intact, and make sure everything works smoothly on mobile devices too.
