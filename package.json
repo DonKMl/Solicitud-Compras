@@ -42,7 +42,6 @@
     "@radix-ui/react-label": "^1.0.0"
   },
   "devDependencies": {
-    "vite": "^5.4.9",
     "@vitejs/plugin-react": "^4.3.2",
     "typescript": "5.6.3",
     "tsx": "^4.19.1",
