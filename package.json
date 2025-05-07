@@ -31,7 +31,8 @@
     "@tailwindcss/typography": "^0.5.15",
     "wouter": "^3.3.5",
     "@tanstack/react-query": "^5.60.5",
-    "lucide-react": "^0.453.0"
+    "lucide-react": "^0.453.0",
+    "@radix-ui/react-slot": "^1.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.2",
