@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "vite": "^5.4.9",
+    "@vitejs/plugin-react": "^4.3.2",
     "axios": "^1.9.0",
     "express": "^4.21.2",
     "express-session": "^1.18.1",
@@ -42,7 +43,6 @@
     "@radix-ui/react-label": "^1.0.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.2",
     "typescript": "5.6.3",
     "tsx": "^4.19.1",
     "esbuild": "^0.24.0",
