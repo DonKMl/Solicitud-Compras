@@ -12,8 +12,9 @@
     "db:seed": "tsx db/seed.ts"
   },
   "dependencies": {
-    "vite": "^5.4.9",
+    "vite": "^5.4.18",
     "@vitejs/plugin-react": "^4.3.2",
+    "esbuild": "^0.24.0",
     "axios": "^1.9.0",
     "express": "^4.21.2",
     "express-session": "^1.18.1",
@@ -45,7 +46,6 @@
   "devDependencies": {
     "typescript": "5.6.3",
     "tsx": "^4.19.1",
-    "esbuild": "^0.24.0",
     "drizzle-kit": "^0.27.1"
   }
 }
